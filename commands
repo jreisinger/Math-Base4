@@ -1,4 +1,5 @@
 perl -Ilib t/01_Math-Base.t
 prove -l
+perl Build.pl
 ./Build test
 ./Build install
